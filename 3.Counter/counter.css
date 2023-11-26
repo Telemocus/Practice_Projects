@@ -1,0 +1,30 @@
+body {
+     font-family: sans-serif;
+}
+
+#counter{
+     display:  flex;
+     width: 100%;
+     justify-content: center;
+}
+
+#counterDisplay{
+     font-size: 8rem;
+     text-align: center;
+     color: rgb(29, 28, 28);
+}
+
+#counter button{
+     border: 0;
+     padding: .5rem 1rem;
+     font-size: 2rem;
+     cursor: pointer;
+}
+
+#increase-control{
+     background-color: green;
+}
+
+#decrease-control{
+     background-color: rgb(210, 27, 27);
+}
